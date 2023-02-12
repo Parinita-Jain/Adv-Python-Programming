@@ -1,0 +1,95 @@
+Github----
+It can be used for version control.It stores the changes made in the subsequent versions.It also stores who made the changes and when.
+
+Setting up github---
+
+do github--
+from cmd prompt--
+git config --global user.name "Parinita-Jain" 
+git config --global user.email parinita.jain14@yahoo.com
+
+
+C:\Users\parin>git config --global user.name "Parinita-Jain"
+
+C:\Users\parin>git config --global user.email parinita.jain14@yahoo.com
+
+C:\Users\parin>git config --global user.email
+parinita.jain14@yahoo.com
+
+C:\Users\parin>cd C:\Users\parin\Documents\AV\Python prog practice
+
+C:\Users\parin\Documents\AV\Python prog practice>git init
+Initialized empty Git repository in C:/Users/parin/Documents/AV/Python prog practice/.git/
+
+C:\Users\parin\Documents\AV\Python prog practice>git add .
+
+
+C:\Users\parin\Documents\AV\Python prog practice>git commit -m "version1"
+
+
+C:\Users\parin\Documents\AV\Python prog practice>git status
+On branch master
+nothing to commit, working tree clean
+
+
+C:\Users\parin\Documents\AV\Python prog practice>git branch -m main
+
+C:\Users\parin\Documents\AV\Python prog practice>git remote add origin git@github.com:Parinita-Jain/Adv-Python-Programming.git
+error: remote origin already exists.
+
+C:\Users\parin\Documents\AV\Python prog practice>git push origin main
+
+refresh git repository and u will see everything.
+
+------- steps by-----
+
+
+C:\Users\parin>git config --global user.name "Parinita-Jain"
+
+C:\Users\parin>git config --global user.email parinita.jain14@yahoo.com
+
+C:\Users\parin>git config --global user.email
+parinita.jain14@yahoo.com
+
+C:\Users\parin>cd C:\Users\parin\Documents\AV\Python prog practice
+
+C:\Users\parin\Documents\AV\Python prog practice>git init
+
+$nano sample_file.txt
+
+$git add sample_file.txt
+
+$git commit -m 'version 1'
+
+$git status
+
+$nano sample_file.txt---------------------------made changes in file
+
+$git status
+
+$git add sample_file.txt
+
+$git commit -m "version 2"
+
+-------rename the primary branch
+
+$git branch -M main----------------we have 2 branches---master branch and main branch
+
+$git remote add origin <get the link from github repository>
+
+$git push origin main
+
+-----------------------
+
+use cases of github----
+
+1.create repository
+2. clone a repository-----------
+goto some repository--------->go to code-----> copy https link
+$git clone copied_https_url
+go to the home directory. The cloned repository is there.
+3.create an issue
+4.make pull request
+
+
+ 
